@@ -19,7 +19,11 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](LICENSE)
 [![Zero Cost](https://img.shields.io/badge/Cloud_API_Fees-$0.00-success?style=for-the-badge&logo=cashapp&logoColor=white)](#zero-cost-architecture)
 
-<br/>
+<br/><br/>
+
+<img src="demo.gif" alt="GhostRoute CLI Demo" width="850" />
+
+<br/><br/>
 
 [Explore Features](#-key-features) •
 [Quickstart](#-instant-quickstart-zero-setup) •
