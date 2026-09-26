@@ -1,0 +1,37 @@
+name: GhostRoute CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    name: Test & Audit
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+          cache: true
+
+      - name: Run 100% Offline Automated Tests
+        run: go test -v -race -cover ./...
+
+      - name: Verify CLI Binary Build
+        run: go build -v ./cmd/ghostroute
+
+      - name: Run Demo Scan
+        run: go run ./cmd/ghostroute scan --demo
+
+      - name: Verify SARIF Export
+        run: go run ./cmd/ghostroute scan --demo --format sarif --output test-report.sarif
