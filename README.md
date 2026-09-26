@@ -22,7 +22,7 @@
 
 <br/><br/>
 
-<img src="demo.gif" alt="GhostRoute CLI Demo" width="850" />
+<img src="assets/demo.gif" alt="GhostRoute CLI Demo" width="850" />
 
 <p align="center">
   <em>🎮 Want to copy output text or seek through frames? Open the <a href="https://asciinema.org/a/EJSdJ2H6EZnHvWxu" target="_blank"><strong>Interactive Asciinema Terminal Recording</strong></a></em>

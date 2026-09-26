@@ -22,3 +22,5 @@ go.work
 report.sarif
 prune.sh
 cleanup.sh
+*.cast
+tools/
