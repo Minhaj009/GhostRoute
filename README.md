@@ -18,12 +18,17 @@
 [![SARIF v2.1.0](https://img.shields.io/badge/SARIF-v2.1.0-orange?style=for-the-badge&logo=securityscorecard&logoColor=white)](https://sarifweb.azurewebsites.net/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](LICENSE)
 [![Zero Cost](https://img.shields.io/badge/Cloud_API_Fees-$0.00-success?style=for-the-badge&logo=cashapp&logoColor=white)](#zero-cost-architecture)
+[![Asciinema](https://img.shields.io/badge/Asciinema-Interactive_Player-D40000?style=for-the-badge&logo=asciinema&logoColor=white)](https://asciinema.org/a/EJSdJ2H6EZnHvWxu)
 
 <br/><br/>
 
 <img src="demo.gif" alt="GhostRoute CLI Demo" width="850" />
 
-<br/><br/>
+<p align="center">
+  <em>🎮 Want to copy output text or seek through frames? Open the <a href="https://asciinema.org/a/EJSdJ2H6EZnHvWxu" target="_blank"><strong>Interactive Asciinema Terminal Recording</strong></a></em>
+</p>
+
+<br/>
 
 [Explore Features](#-key-features) •
 [Quickstart](#-instant-quickstart-zero-setup) •
